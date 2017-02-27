@@ -3,9 +3,9 @@ package main.arrays;
 
 public class FindMinInRotatedSortedArray {
 
-    public static int findMinimum(int[] input) {
+    public static Integer findMinimum(int[] input) {
         if (input.length == 0) {
-            return -1;
+            return null;
         }
         int left = 0;
         int right = input.length/2;
