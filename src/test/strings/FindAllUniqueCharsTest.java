@@ -9,10 +9,8 @@ import java.util.Set;
 
 import static org.junit.Assert.*;
 
-/**
- * Created by chq-keving on 2/28/2017.
- */
 public class FindAllUniqueCharsTest {
+
     @Test
     public void findUniqueCharsUsingSet() throws Exception {
         String input = "aasdfee";
