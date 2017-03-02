@@ -13,6 +13,7 @@ public class AnagramTest {
     @Test
     public void testAnagram() {
         assertTrue(Anagram.checkForAnagram("trees", "srete"));
+        assertTrue(Anagram.anagram("trees", "srete"));
     }
 
 }

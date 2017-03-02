@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bc94b02-c722-4fe3-a10d-d61290a6a8ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/strings/CStyleStringReverse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/strings/RemoveDuplicatesFromString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/strings/CStyleStringReverseTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/strings/RemoveDuplicatesFromStringTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ADS_Practice/main/arrays/Fibonacci.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADS_Practice/main/strings/Anagram.class" afterPath="$PROJECT_DIR$/out/production/ADS_Practice/main/strings/Anagram.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADS_Practice/test/arrays/FibonacciTest.class" afterPath="$PROJECT_DIR$/out/production/ADS_Practice/test/arrays/FibonacciTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADS_Practice/test/strings/AnagramTest.class" afterPath="$PROJECT_DIR$/out/production/ADS_Practice/test/strings/AnagramTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/strings/FindAllUniqueCharsTest.java" afterPath="$PROJECT_DIR$/src/test/strings/FindAllUniqueCharsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/arrays/Fibonacci.java" afterPath="$PROJECT_DIR$/src/main/arrays/Fibonacci.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/strings/Anagram.java" afterPath="$PROJECT_DIR$/src/main/strings/Anagram.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/arrays/FibonacciTest.java" afterPath="$PROJECT_DIR$/src/test/arrays/FibonacciTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/strings/AnagramTest.java" afterPath="$PROJECT_DIR$/src/test/strings/AnagramTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,26 +26,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RemoveDuplicatesFromString.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/strings/RemoveDuplicatesFromString.java">
+      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/arrays/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveDuplicatesFromStringTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/strings/RemoveDuplicatesFromStringTest.java">
+      <file leaf-file-name="FibonacciTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/arrays/FibonacciTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="19" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,9 +70,7 @@
         <option value="$PROJECT_DIR$/src/arrays/FibonacciTest.java" />
         <option value="$PROJECT_DIR$/src/main/arrays/FibonacciTest.java" />
         <option value="$PROJECT_DIR$/src/test/arrays/FindPairWithSumInIntArrayTest.java" />
-        <option value="$PROJECT_DIR$/src/test/arrays/FibonacciTest.java" />
         <option value="$PROJECT_DIR$/src/test/strings/RegexTest.java" />
-        <option value="$PROJECT_DIR$/src/test/strings/AnagramTest.java" />
         <option value="$PROJECT_DIR$/src/test/strings/palindromeTest.java" />
         <option value="$PROJECT_DIR$/src/main/algorithms/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/arrays/FindMinInRotatedSortedArray.java" />
@@ -84,6 +81,10 @@
         <option value="$PROJECT_DIR$/src/test/strings/CStyleStringReverseTest.java" />
         <option value="$PROJECT_DIR$/src/main/strings/RemoveDuplicatesFromString.java" />
         <option value="$PROJECT_DIR$/src/test/strings/RemoveDuplicatesFromStringTest.java" />
+        <option value="$PROJECT_DIR$/src/main/strings/Anagram.java" />
+        <option value="$PROJECT_DIR$/src/test/strings/AnagramTest.java" />
+        <option value="$PROJECT_DIR$/src/main/arrays/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/test/arrays/FibonacciTest.java" />
       </list>
     </option>
   </component>
@@ -95,9 +96,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-960" />
-    <option name="width" value="960" />
-    <option name="height" value="1080" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -115,9 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,6 +241,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,8 +272,8 @@
       <recent name="C:\Users\user\IdeaProjects\ADS_Practice\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RemoveDuplicatesFromStringTest.testRemovalOfDups">
-    <configuration default="false" name="FindAllUniqueCharsTest.testIfStringOnlyHasUniqueChars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FibonacciTest.testRecursiveFib">
+    <configuration default="false" name="RemoveDuplicatesFromStringTest.testRemovalOfDups" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.strings.*" />
@@ -282,8 +284,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.strings" />
-      <option name="MAIN_CLASS_NAME" value="test.strings.FindAllUniqueCharsTest" />
-      <option name="METHOD_NAME" value="testIfStringOnlyHasUniqueChars" />
+      <option name="MAIN_CLASS_NAME" value="test.strings.RemoveDuplicatesFromStringTest" />
+      <option name="METHOD_NAME" value="testRemovalOfDups" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -297,7 +299,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="FindAllUniqueCharsTest.findUniqueCharsUsingArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="AnagramTest.testAnagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.strings.*" />
@@ -308,8 +310,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.strings" />
-      <option name="MAIN_CLASS_NAME" value="test.strings.FindAllUniqueCharsTest" />
-      <option name="METHOD_NAME" value="findUniqueCharsUsingArray" />
+      <option name="MAIN_CLASS_NAME" value="test.strings.AnagramTest" />
+      <option name="METHOD_NAME" value="testAnagram" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -323,19 +325,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CStyleStringReverseTest.reverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FibonacciTest.testRecursiveFib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="test.strings.*" />
+          <option name="PATTERN" value="test.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ADS_Practice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.strings" />
-      <option name="MAIN_CLASS_NAME" value="test.strings.CStyleStringReverseTest" />
-      <option name="METHOD_NAME" value="reverse" />
+      <option name="PACKAGE_NAME" value="test.arrays" />
+      <option name="MAIN_CLASS_NAME" value="test.arrays.FibonacciTest" />
+      <option name="METHOD_NAME" value="testRecursiveFib" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -349,18 +351,18 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CStyleStringReverseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="test.strings.*" />
+          <option name="PATTERN" value="test.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ADS_Practice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.strings" />
-      <option name="MAIN_CLASS_NAME" value="test.strings.CStyleStringReverseTest" />
+      <option name="PACKAGE_NAME" value="test.arrays" />
+      <option name="MAIN_CLASS_NAME" value="test.arrays.FibonacciTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -375,19 +377,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="RemoveDuplicatesFromStringTest.testRemovalOfDups" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FibonacciTest.testFib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="test.strings.*" />
+          <option name="PATTERN" value="test.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ADS_Practice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.strings" />
-      <option name="MAIN_CLASS_NAME" value="test.strings.RemoveDuplicatesFromStringTest" />
-      <option name="METHOD_NAME" value="testRemovalOfDups" />
+      <option name="PACKAGE_NAME" value="test.arrays" />
+      <option name="MAIN_CLASS_NAME" value="test.arrays.FibonacciTest" />
+      <option name="METHOD_NAME" value="testFib" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -634,19 +636,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FindAllUniqueCharsTest.testIfStringOnlyHasUniqueChars" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FindAllUniqueCharsTest.findUniqueCharsUsingArray" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CStyleStringReverseTest.reverse" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CStyleStringReverseTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RemoveDuplicatesFromStringTest.testRemovalOfDups" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.RemoveDuplicatesFromStringTest.testRemovalOfDups" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AnagramTest.testAnagram" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest.testRecursiveFib" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciTest.testFib" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RemoveDuplicatesFromStringTest.testRemovalOfDups" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CStyleStringReverseTest.reverse" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CStyleStringReverseTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FindAllUniqueCharsTest.findUniqueCharsUsingArray" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FindAllUniqueCharsTest.testIfStringOnlyHasUniqueChars" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciTest.testRecursiveFib" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciTest.testFib" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AnagramTest.testAnagram" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RemoveDuplicatesFromStringTest.testRemovalOfDups" />
       </list>
     </recent_temporary>
   </component>
@@ -668,7 +670,8 @@
       <workItem from="1488136491596" duration="253000" />
       <workItem from="1488136794620" duration="7791000" />
       <workItem from="1488296496774" duration="3029000" />
-      <workItem from="1488381324973" duration="5795000" />
+      <workItem from="1488381324973" duration="5881000" />
+      <workItem from="1488478694193" duration="2310000" />
     </task>
     <task id="LOCAL-00001" summary="Added the start of the implementation">
       <created>1488139891318</created>
@@ -691,46 +694,53 @@
       <option name="project" value="LOCAL" />
       <updated>1488299512698</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Reversing a string. &#10;Removing duplicates from a string.">
+      <created>1488390243775</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1488390243775</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RemoveDuplicatesFromStringTest_testRemovalOfDups - 2017.03.01 at 08h 30m 38s.xml">
-      <configuration name="RemoveDuplicatesFromStringTest.testRemovalOfDups" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2017.03.02 at 10h 55m 10s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesFromStringTest_testRemovalOfDups - 2017.03.01 at 08h 31m 49s.xml">
-      <configuration name="RemoveDuplicatesFromStringTest.testRemovalOfDups" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_testFib - 2017.03.02 at 10h 55m 41s.xml">
+      <configuration name="FibonacciTest.testFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesFromStringTest_testRemovalOfDups - 2017.03.01 at 08h 32m 46s.xml">
-      <configuration name="RemoveDuplicatesFromStringTest.testRemovalOfDups" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_testFib - 2017.03.02 at 10h 56m 12s.xml">
+      <configuration name="FibonacciTest.testFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesFromStringTest_testRemovalOfDups - 2017.03.01 at 08h 34m 21s.xml">
-      <configuration name="RemoveDuplicatesFromStringTest.testRemovalOfDups" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_testRecursiveFib - 2017.03.02 at 10h 38m 47s.xml">
+      <configuration name="FibonacciTest.testRecursiveFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesFromStringTest_testRemovalOfDups - 2017.03.01 at 08h 34m 38s.xml">
-      <configuration name="RemoveDuplicatesFromStringTest.testRemovalOfDups" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_testRecursiveFib - 2017.03.02 at 10h 39m 23s.xml">
+      <configuration name="FibonacciTest.testRecursiveFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesFromStringTest_testRemovalOfDups - 2017.03.01 at 08h 36m 38s.xml">
-      <configuration name="RemoveDuplicatesFromStringTest.testRemovalOfDups" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_testRecursiveFib - 2017.03.02 at 10h 52m 53s.xml">
+      <configuration name="FibonacciTest.testRecursiveFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesFromStringTest_testRemovalOfDups - 2017.03.01 at 08h 36m 41s.xml">
-      <configuration name="RemoveDuplicatesFromStringTest.testRemovalOfDups" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_testRecursiveFib - 2017.03.02 at 10h 54m 17s.xml">
+      <configuration name="FibonacciTest.testRecursiveFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesFromStringTest_testRemovalOfDups - 2017.03.01 at 08h 37m 54s.xml">
-      <configuration name="RemoveDuplicatesFromStringTest.testRemovalOfDups" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_testRecursiveFib - 2017.03.02 at 10h 55m 03s.xml">
+      <configuration name="FibonacciTest.testRecursiveFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesFromStringTest_testRemovalOfDups - 2017.03.01 at 08h 38m 01s.xml">
-      <configuration name="RemoveDuplicatesFromStringTest.testRemovalOfDups" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_testRecursiveFib - 2017.03.02 at 10h 55m 50s.xml">
+      <configuration name="FibonacciTest.testRecursiveFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesFromStringTest_testRemovalOfDups - 2017.03.01 at 08h 38m 12s.xml">
-      <configuration name="RemoveDuplicatesFromStringTest.testRemovalOfDups" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_testRecursiveFib - 2017.03.02 at 10h 56m 17s.xml">
+      <configuration name="FibonacciTest.testRecursiveFib" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16868000" />
+    <option name="totallyTimeSpent" value="19264000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-960" y="0" width="960" height="1080" extended-state="0" />
+    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -739,16 +749,16 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5088692" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31926408" sideWeight="0.49113083" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3430736" sideWeight="0.49113083" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32446808" sideWeight="0.49113083" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3723404" sideWeight="0.49113083" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.49113083" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32705098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10117146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3982684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39148936" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -774,11 +784,12 @@
     <MESSAGE value="Added the start of the implementation" />
     <MESSAGE value="Completed finding the min is a rotated sorted array." />
     <MESSAGE value="Find all unique chars in a string. &#10;Find out if string has only unique chars." />
-    <option name="LAST_COMMIT_MESSAGE" value="Find all unique chars in a string. &#10;Find out if string has only unique chars." />
+    <MESSAGE value="Reversing a string. &#10;Removing duplicates from a string." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reversing a string. &#10;Removing duplicates from a string." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -787,13 +798,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/strings/RemoveDuplicatesFromString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/strings/RemoveDuplicatesFromStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/strings/FindAllUniqueChars.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="20" column="70" lean-forward="false" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -885,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -893,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -909,7 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,23 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/arrays/FibonacciTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/strings/AnagramTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,7 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -966,7 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -981,14 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/arrays/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1003,7 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,7 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,9 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1038,7 +1026,7 @@
         <state relative-caret-position="238">
           <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="19" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1046,10 +1034,42 @@
     <entry file="file://$PROJECT_DIR$/src/main/strings/RemoveDuplicatesFromString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/strings/AnagramTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/strings/Anagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/arrays/FibonacciTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/arrays/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -21,7 +21,6 @@ public class Fibonacci {
 
     public static int findInSeriesRecursion(int n) {
         if (n <= 1) {
-            System.out.println(n);
             return n;
         }
         return findInSeriesRecursion(n-1) + findInSeriesRecursion(n-2);

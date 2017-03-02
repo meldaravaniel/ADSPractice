@@ -18,16 +18,16 @@ public class FibonacciTest {
         assertEquals(BigInteger.valueOf(102334155), Fibonacci.findInSeries(40));
         assertEquals(BigInteger.valueOf(9227465), Fibonacci.findInSeries(35));
         long finishTime = System.nanoTime();
-        System.out.println("Iterative: " + (finishTime - startTime));
+        System.out.println("Iterative: " + (finishTime - startTime)/10000);
     }
 
     @Test
     public void testRecursiveFib() {
-        long startTime = System.nanoTime();
-        assertEquals(BigInteger.valueOf(102334155), Fibonacci.findInSeries(40));
-        assertEquals(BigInteger.valueOf(9227465), Fibonacci.findInSeries(35));
-        long finishTime = System.nanoTime();
-        System.out.println("Recursive: " + (finishTime - startTime));
+        long startTime2 = System.nanoTime();
+        assertEquals(102334155, Fibonacci.findInSeriesRecursion(40));
+        assertEquals(9227465, Fibonacci.findInSeriesRecursion(35));
+        long finishTime2 = System.nanoTime();
+        System.out.println("Recursive: " + (finishTime2 - startTime2)/10000);
     }
 
 }
