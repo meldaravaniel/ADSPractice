@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bc94b02-c722-4fe3-a10d-d61290a6a8ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/strings/ReplaceAllSpaces.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/strings/ReplaceAllSpacesTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/strings/Anagram.java" afterPath="$PROJECT_DIR$/src/main/strings/Anagram.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/strings/ReplaceAllSpaces.java" afterPath="$PROJECT_DIR$/src/main/strings/ReplaceAllSpaces.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/strings/AnagramTest.java" afterPath="$PROJECT_DIR$/src/test/strings/AnagramTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,38 +20,66 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/arrays/Fibonacci.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReplaceAllSpaces.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/strings/ReplaceAllSpaces.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReplaceAllSpacesTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/strings/ReplaceAllSpacesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/arrays/Fibonacci.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FindAllUniqueChars.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/strings/FindAllUniqueChars.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="316">
+                  <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Anagram.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/strings/Anagram.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="380">
+                  <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AnagramTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/strings/AnagramTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="ReplaceAllSpaces.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/strings/ReplaceAllSpaces.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,12 +114,12 @@
         <option value="$PROJECT_DIR$/src/test/strings/CStyleStringReverseTest.java" />
         <option value="$PROJECT_DIR$/src/main/strings/RemoveDuplicatesFromString.java" />
         <option value="$PROJECT_DIR$/src/test/strings/RemoveDuplicatesFromStringTest.java" />
-        <option value="$PROJECT_DIR$/src/main/strings/Anagram.java" />
-        <option value="$PROJECT_DIR$/src/test/strings/AnagramTest.java" />
         <option value="$PROJECT_DIR$/src/main/arrays/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/test/arrays/FibonacciTest.java" />
         <option value="$PROJECT_DIR$/src/test/strings/ReplaceAllSpacesTest.java" />
         <option value="$PROJECT_DIR$/src/main/strings/ReplaceAllSpaces.java" />
+        <option value="$PROJECT_DIR$/src/test/strings/AnagramTest.java" />
+        <option value="$PROJECT_DIR$/src/main/strings/Anagram.java" />
       </list>
     </option>
   </component>
@@ -123,8 +152,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,7 +278,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,33 +307,7 @@
       <recent name="C:\Users\user\IdeaProjects\ADS_Practice\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReplaceAllSpacesTest">
-    <configuration default="false" name="AnagramTest.testAnagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ADS_Practice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.strings" />
-      <option name="MAIN_CLASS_NAME" value="test.strings.AnagramTest" />
-      <option name="METHOD_NAME" value="testAnagram" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.AnagramTest.testAnagram2">
     <configuration default="false" name="FibonacciTest.testRecursiveFib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -397,6 +400,32 @@
       <option name="MAIN_CLASS_NAME" value="test.strings.ReplaceAllSpacesTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AnagramTest.testAnagram2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ADS_Practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.strings" />
+      <option name="MAIN_CLASS_NAME" value="test.strings.AnagramTest" />
+      <option name="METHOD_NAME" value="testAnagram2" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -667,19 +696,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AnagramTest.testAnagram" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciTest.testRecursiveFib" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciTest.testFib" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ReplaceAllSpacesTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciTest.testRecursiveFib" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest.testFib" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ReplaceAllSpacesTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AnagramTest.testAnagram2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ReplaceAllSpacesTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciTest.testRecursiveFib" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest.testFib" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AnagramTest.testAnagram" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AnagramTest.testAnagram2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ReplaceAllSpacesTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest.testRecursiveFib" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciTest.testFib" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
       </list>
     </recent_temporary>
   </component>
@@ -703,7 +732,8 @@
       <workItem from="1488296496774" duration="3029000" />
       <workItem from="1488381324973" duration="5881000" />
       <workItem from="1488478694193" duration="2327000" />
-      <workItem from="1488557418379" duration="2606000" />
+      <workItem from="1488557418379" duration="2617000" />
+      <workItem from="1488567341837" duration="2049000" />
     </task>
     <task id="LOCAL-00001" summary="Added the start of the implementation">
       <created>1488139891318</created>
@@ -740,18 +770,25 @@
       <option name="project" value="LOCAL" />
       <updated>1488481026296</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Replace all spaces.">
+      <created>1488561947024</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1488561947024</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FibonacciTest_testRecursiveFib - 2017.03.02 at 10h 55m 03s.xml">
-      <configuration name="FibonacciTest.testRecursiveFib" configurationId="JUnit" />
+    <history-entry file="AnagramTest_testAnagram2 - 2017.03.03 at 13h 38m 29s.xml">
+      <configuration name="AnagramTest.testAnagram2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciTest_testRecursiveFib - 2017.03.02 at 10h 55m 50s.xml">
-      <configuration name="FibonacciTest.testRecursiveFib" configurationId="JUnit" />
+    <history-entry file="AnagramTest_testAnagram2 - 2017.03.03 at 13h 38m 58s.xml">
+      <configuration name="AnagramTest.testAnagram2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciTest_testRecursiveFib - 2017.03.02 at 10h 56m 17s.xml">
-      <configuration name="FibonacciTest.testRecursiveFib" configurationId="JUnit" />
+    <history-entry file="AnagramTest_testAnagram2 - 2017.03.03 at 13h 39m 14s.xml">
+      <configuration name="AnagramTest.testAnagram2" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ReplaceAllSpacesTest - 2017.03.03 at 09h 18m 28s.xml">
       <configuration name="ReplaceAllSpacesTest" configurationId="JUnit" />
@@ -776,7 +813,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21887000" />
+    <option name="totallyTimeSpent" value="23947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
@@ -790,9 +827,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32446808" sideWeight="0.49113083" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3723404" sideWeight="0.49113083" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.49113083" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287234" sideWeight="0.49113083" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17891374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18051118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -816,6 +853,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -825,11 +880,12 @@
     <MESSAGE value="Find all unique chars in a string. &#10;Find out if string has only unique chars." />
     <MESSAGE value="Reversing a string. &#10;Removing duplicates from a string." />
     <MESSAGE value="Fixed anagram and fib" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed anagram and fib" />
+    <MESSAGE value="Replace all spaces." />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace all spaces." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="20" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -838,6 +894,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/arrays/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/strings/ReplaceAllSpaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/strings/ReplaceAllSpacesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/arrays/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1060,13 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/strings/FindAllUniqueChars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/strings/RemoveDuplicatesFromStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1081,17 +1154,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/strings/AnagramTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/arrays/FibonacciTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="20" column="75" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/strings/Anagram.java">
+    <entry file="file://$PROJECT_DIR$/src/test/strings/ReplaceAllSpacesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="238">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,26 +1178,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/arrays/FibonacciTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="75" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/strings/ReplaceAllSpaces.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/strings/ReplaceAllSpacesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/strings/AnagramTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="306">
+          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/strings/FindAllUniqueChars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/strings/Anagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
           <folding />
         </state>
       </provider>

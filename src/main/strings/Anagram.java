@@ -22,30 +22,50 @@ public class Anagram {
         return true;
     }
 
-    public static boolean anagram(String s, String t) {
-        if (s.length() != t.length()) return false;
-        int[] letters = new int[256];
-        int num_unique_chars = 0;
-        int num_completed_t = 0;
-        char[] s_array = s.toCharArray();
+    public static boolean anagram(String wordOne, String wordTwo) {
+        if (wordOne.length() != wordTwo.length()) return false;
+        int[] letters = new int[256]; //array to hold chars at index, int as values
+        int num_unique_chars = 0; //track total unique chars
+        int num_completed_t = 0; //track completed chars
+        char[] s_array = wordOne.toCharArray();
         for (char c : s_array) { // count number of each char in s.
             if (letters[c] == 0) ++num_unique_chars;
-            ++letters[c];
+            ++letters[c]; //add number of occurences of each unique char
         }
-        for (int i = 0; i < t.length(); ++i) {
-            int c = (int) t.charAt(i);
-            if (letters[c] == 0) { // Found more of char c in t than in s.
-                return false;
+        for (int i = 0; i < wordTwo.length(); ++i) {
+            int charIndex = (int) wordTwo.charAt(i); //find the int value of the char
+            if (letters[charIndex] == 0) {
+                return false;// found a letter that is not in wordOne
             }
-            --letters[c];
-            if (letters[c] == 0) {
+            --letters[charIndex]; // reduce the number of occurences
+            if (letters[charIndex] == 0) { //if that was the last one mark it complete
                 ++num_completed_t;
-                if (num_completed_t == num_unique_chars) {
+                if (num_completed_t == num_unique_chars) { //number of letters match
 // it’s a match if t has been processed completely
-                    return i == t.length() - 1;
+                    return i == wordTwo.length() - 1;
                 }
             }
         }
         return false;
+    }
+
+    public static boolean anagram2(String wordOne, String wordTwo) {
+        if (wordOne.length() != wordTwo.length()) return false;
+        int[] letters = new int[256]; //array to hold chars at index, int as values
+        char[] s_array = wordOne.toCharArray();
+        for (char c : s_array) { // count number of each char in s.
+            ++letters[c]; //add number of occurrences of each unique char
+        }
+        for (int i = 0; i < wordTwo.length(); ++i) {
+            int charIndex = (int) wordTwo.charAt(i); //find the int value of the char
+            if (letters[charIndex] == 0) {
+                return false;// found a letter that is not in wordOne
+            }
+            --letters[charIndex]; // reduce the number of occurrences
+            if (letters[charIndex] == -1) { //if there are too many its not the same
+                return false;
+            }
+        }
+        return true;
     }
 }

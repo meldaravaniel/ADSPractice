@@ -1,8 +1,5 @@
 package main.strings;
 
-/**
- * Created by chq-keving on 3/3/2017.
- */
 public class ReplaceAllSpaces {
     //Write a method to replace all spaces in a string with ‘%20’.
     public static String replace(String input) {

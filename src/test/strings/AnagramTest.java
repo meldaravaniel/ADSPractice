@@ -16,4 +16,10 @@ public class AnagramTest {
         assertTrue(Anagram.anagram("trees", "srete"));
     }
 
+    @Test
+    public void testAnagram2() {
+        assertTrue(Anagram.anagram2("trees", "srete"));
+        assertTrue(Anagram.anagram2("sadffdeg ", "ffdegasd "));
+    }
+
 }
