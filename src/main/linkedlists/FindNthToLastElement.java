@@ -33,8 +33,21 @@ public class FindNthToLastElement {
         return p1;
     }
 
-    public static SinglyLinkedList.Node findNthRecursive(SinglyLinkedList.Node head, int n) {
-        //http://stackoverflow.com/questions/2598348/how-to-find-nth-element-from-the-end-of-a-singly-linked-list
-        return null;
+    public static SinglyLinkedList.Node findNthRecursive(SinglyLinkedList.Node head, int nth) {
+        if (nth <= 0) return null;
+        int i = 0;
+        return findNthLastRecursive(head, nth, i);
+    }
+
+    private static SinglyLinkedList.Node findNthLastRecursive(SinglyLinkedList.Node p, int nth, int pos) {
+        if (p == null) {
+            return null;
+        }
+        SinglyLinkedList.Node n = findNthLastRecursive(p.getNextRef(), nth, pos);
+        pos++;
+        if (pos == nth) {
+            n = p;
+        }
+        return n;
     }
 }
