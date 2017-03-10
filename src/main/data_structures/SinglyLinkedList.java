@@ -24,12 +24,49 @@ public class SinglyLinkedList<T> {
             //reassign the tail to a node that only has a value. and NO ref
             tail = newNode;
         }
-        //https://www.youtube.com/results?search_query=how+does+a+linked+list+work+in+java
-        //http://www.java2novice.com/data-structures-in-java/linked-list/singly-linked-list/
+    }
+
+    public void addAfter(T element, T after) {
+        Node<T> tmp = head;
+        Node<T> refNode = null;
+        while(true){
+            if(tmp == null){
+                break;
+            }
+            if(tmp.compareTo(after) == 0){
+                //found the target node, add after this node
+                refNode = tmp;
+                break;
+            }
+            tmp = tmp.getNextRef();
+        }
+        if(refNode != null){
+            //add element after the target node
+            Node<T> nd = new Node<T>();
+            nd.setValue(element);
+            nd.setNextRef(tmp.getNextRef());
+            if(tmp == tail){
+                tail = nd;
+            }
+            tmp.setNextRef(nd);
+
+        } else {
+            System.out.println("Unable to find the given element...");
+        }
+    }
+
+    public void deleteFront() {
+        if (head == null) {
+            System.out.println("Underflow.. ");
+        }
+        Node<T> tmp = head;
+        head = tmp.getNextRef();
+
     }
 
 
-    class Node<T> implements Comparable<T> {
+
+    public class Node<T> implements Comparable<T> {
         private T value;
         private Node<T> nextRef;
 
