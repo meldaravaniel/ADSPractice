@@ -9,6 +9,8 @@ import java.util.LinkedList;
  */
 public class FindNthToLastElement {
     //Implement an algorithm to find the nth to last element of a singly linked list.
+    //In the non java.collections linked list. You have to iterate through a linked
+    // list by using the next ref on the node of the head and keep reassigning it.
 
     public static SinglyLinkedList.Node findNth(SinglyLinkedList.Node head, int n) {
         if (head == null || n < 1) {
