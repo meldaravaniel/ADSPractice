@@ -10,16 +10,16 @@ public class AllPermuationsOfAString {
     public static ArrayList<String> getAllPermutations(String s) {
         System.out.println("Method call: " + s);
         // The result
-        ArrayList<String> listOfPermutations = new ArrayList<String>();
+        ArrayList<String> listOfPermutations = new ArrayList<>();
         // If input string's length is 1, return {s}
         if (s.length() == 1) {
             listOfPermutations.add(s);
         } else if (s.length() > 1) {
-            int lastIndex = s.length() - 1;
+            int lastIndex = s.length() - 1;                             //input: kevin
             // Find out the last character
-            String last = s.substring(lastIndex);
+            String last = s.substring(lastIndex);                       //last = n
             // Rest of the string
-            String rest = s.substring(0, lastIndex);
+            String rest = s.substring(0, lastIndex);                    //rest = kevi
             // Perform permutation on the rest string and
             // merge with the last character
 
@@ -35,12 +35,15 @@ public class AllPermuationsOfAString {
      * @return     a merged new list, e.g. {"cab", "acb" ... }
      */
     public static ArrayList<String> merge(ArrayList<String> list, String c) {
-        ArrayList<String> res = new ArrayList<String>();
+        ArrayList<String> res = new ArrayList<>();
         // Loop through all the string in the list
+        System.out.println("List: " + list);
         for (String s : list) {
             // For each string, insert the last character to all possible positions
             // by adjusting the offset of the insert point each iteration
             // and add them to the new list
+
+            System.out.println("string: " + s);
             for (int i = 0; i <= s.length(); ++i) {
                 String ps = new StringBuffer(s).insert(i, c).toString();
                 res.add(ps);

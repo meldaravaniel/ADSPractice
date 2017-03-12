@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 public class AllPermuationsOfAStringTest {
     @Test
     public void getAllPermutations() throws Exception {
-        AllPermuationsOfAString.getAllPermutations("asd");
+        AllPermuationsOfAString.getAllPermutations("kevin");
         assertTrue(true);
     }
 

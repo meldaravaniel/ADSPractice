@@ -17,7 +17,6 @@ public class RemoveDuplicatesFromString {
         if (input == null) return null;
         if (input.length() < 2) return input;
         char[] chars = input.toCharArray();
-        int tail = 1;
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < input.length(); i++) {
             boolean dup = false;
