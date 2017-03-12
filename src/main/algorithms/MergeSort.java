@@ -20,6 +20,8 @@ public class MergeSort {
 
     private  void mergeSort(int low, int high) {
         if (low < high) {
+            System.out.println("middle = low + (high - low) / 2");
+            System.out.println(low + " + (" + high + "-"+ low + ") / 2");
             int middle = low + (high - low) / 2;
             mergeSort(low, middle);
             mergeSort(middle+1, high);
