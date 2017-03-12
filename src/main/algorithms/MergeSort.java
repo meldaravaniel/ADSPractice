@@ -7,28 +7,53 @@ import java.util.Arrays;
  * Created by kgresmer on 2/25/2017.
  */
 public class MergeSort {
+    private int[] numbers;
+    private int[] helper;
+    private int length;
 
-    public static int[] sort(int[] input) {
-        int high = input.length;
-
-        if (high < 2) return input;
-
-        int middle = high/2;
-        int[] left = Arrays.copyOfRange(input, 0, middle);
-        int[] right = Arrays.copyOfRange(input, middle, high);
-        return merge(sort(left), sort(right));
+    public  void sort(int[] values) {
+        this.numbers = values;
+        length = values.length;
+        this.helper = new int[length];
+        mergeSort(0, length - 1);
     }
 
-    private static int[] merge(int[] left, int[] right) {
-        int i = 0, j =0;
-        ArrayList<Integer> result = new ArrayList<>();
-        while( i < left.length && j < right.length) {
-            if (left[i] < right[j]) {
-                result.add(left[i++]);
-            } else {
-                result.add(right[j++]);
-            }
+    private  void mergeSort(int low, int high) {
+        if (low < high) {
+            System.out.println("middle = low + (high - low) / 2");
+            System.out.println(low + " + (" + high + "-"+ low + ") / 2");
+            int middle = low + (high - low) / 2;
+            mergeSort(low, middle);
+            mergeSort(middle+1, high);
+            merge(low, middle, high);
         }
-        return result.add();
     }
+
+    private  void merge(int low, int middle, int high) {
+        for (int i = low; i <= high; i++) {
+            helper[i] = numbers[i];
+        }
+        int i = low;
+        int j = middle + 1;
+        int k = low;
+
+        while (i <= middle && j <= high) {
+
+            if (helper[i] <= helper[j]) {
+                numbers[k] = helper[i];
+                i++;
+            } else {
+                numbers[k] = helper[j];
+                j++;
+            }
+            k++;
+        }
+
+        while (i <= middle) {
+            numbers[k] = helper[i];
+            k++;
+            i++;
+        }
+    }
+
 }
