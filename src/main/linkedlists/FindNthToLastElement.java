@@ -1,8 +1,6 @@
 package main.linkedlists;
 
-import main.data_structures.SinglyLinkedList;
-
-import java.util.LinkedList;
+import main.data_structures.Node;
 
 /**
  * Created by chq-keving on 3/6/2017.
@@ -12,12 +10,12 @@ public class FindNthToLastElement {
     //In the non java.collections linked list. You have to iterate through a linked
     // list by using the next ref on the node of the head and keep reassigning it.
 
-    public static SinglyLinkedList.Node findNth(SinglyLinkedList.Node head, int n) {
+    public static Node findNth(Node head, int n) {
         if (head == null || n < 1) {
             return null;
         }
-        SinglyLinkedList.Node p1 = head;
-        SinglyLinkedList.Node p2 = head;
+        Node p1 = head;
+        Node p2 = head;
         //this loop is setting the p2 node to be n number of nodes from the start
         for (int j = 0; j < n - 1; ++j) {
             if (p2 == null) {
@@ -33,17 +31,17 @@ public class FindNthToLastElement {
         return p1;
     }
 
-    public static SinglyLinkedList.Node findNthRecursive(SinglyLinkedList.Node head, int nth) {
+    public static Node findNthRecursive(Node head, int nth) {
         if (nth <= 0) return null;
         int i = 0;
         return findNthLastRecursive(head, nth, i);
     }
 
-    private static SinglyLinkedList.Node findNthLastRecursive(SinglyLinkedList.Node p, int nth, int pos) {
+    private static Node findNthLastRecursive(Node p, int nth, int pos) {
         if (p == null) {
             return null;
         }
-        SinglyLinkedList.Node n = findNthLastRecursive(p.getNextRef(), nth, pos);
+        Node n = findNthLastRecursive(p.getNextRef(), nth, pos);
         pos++;
         if (pos == nth) {
             n = p;

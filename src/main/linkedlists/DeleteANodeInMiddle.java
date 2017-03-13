@@ -1,5 +1,6 @@
 package main.linkedlists;
 
+import main.data_structures.Node;
 import main.data_structures.SinglyLinkedList;
 
 /**
@@ -7,13 +8,13 @@ import main.data_structures.SinglyLinkedList;
  */
 public class DeleteANodeInMiddle {
 
-    public static boolean deleteNode(SinglyLinkedList.Node node) {
+    public static boolean deleteNode(Node node) {
         //if node.getNextRef() == null . that means you dont have access to a previous node
         // to remove the reference to the node you are trying to delete.
         if (node == null || node.getNextRef() == null) {
             return false;
         }
-        SinglyLinkedList.Node next = node.getNextRef();
+        Node next = node.getNextRef();
         node.setValue(node.getNextRef().getValue());
         node.setNextRef(node.getNextRef().getNextRef());
         return true;
