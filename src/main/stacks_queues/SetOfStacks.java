@@ -16,13 +16,13 @@ public class SetOfStacks {
 
     void push(Object thing) {
         Stack last = getLastStack();
-        if (last != null && !last.isAtCapacity()) {
-            last.push(thing);
-        } else {
-            Stack stack = new Stack(capacity);
-            stack.push(thing);
-            stacks.add(stack);
-        }
+//        if (last != null && !last.isAtCapacity()) {
+//            last.push(thing);
+//        } else {
+//            Stack stack = new Stack(capacity);
+//            stack.push(thing);
+//            stacks.add(stack);
+//        }
     }
 
     Object pop() {
@@ -45,8 +45,8 @@ public class SetOfStacks {
         Stack stack = stacks.get(index);
         int removedItem;
         if (removeTop) removedItem = (Integer) stack.pop();
-        else removedItem = stack.removeBottom();
-
+//        else removedItem = stack.removeBottom();
+        return 1;
     }
 
 }
