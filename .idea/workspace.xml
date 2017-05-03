@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bc94b02-c722-4fe3-a10d-d61290a6a8ea" name="Default" comment="Merge branch 'master' of https://github.com/Kgresmer/ADSPractice&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/strings/CountingPerfectSubsequences.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/strings/CountingPerfectSubsequencesTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADS_Practice/main/algorithms/MergeSort.class" afterPath="$PROJECT_DIR$/out/production/ADS_Practice/main/algorithms/MergeSort.class" />
+    <list default="true" id="9bc94b02-c722-4fe3-a10d-d61290a6a8ea" name="Default" comment="s'more things.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/arrays/LeftShiftArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/arrays/LeftShiftArrayTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,121 +14,38 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ADSPractice$LeftShiftArrayTest_testGetIndex.coverage" NAME="LeftShiftArrayTest.testGetIndex Coverage Results" MODIFIED="1493772557433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.arrays.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IsARotation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/strings/IsARotation.java">
+      <file leaf-file-name="LeftShiftArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/arrays/LeftShiftArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoveDupsFromUnsorted.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/linkedlists/RemoveDupsFromUnsorted.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/algorithms/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/algorithms/MergeSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountingPerfectSubsequences.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/strings/CountingPerfectSubsequences.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="66" column="21" lean-forward="false" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountingPerfectSubsequencesTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/strings/CountingPerfectSubsequencesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state relative-caret-position="265">
+              <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1241#1242#0" expanded="true" />
-                <element signature="e#1295#1296#0" expanded="true" />
-                <element signature="e#2016#2017#0" expanded="true" />
-                <element signature="e#2047#2048#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Assert.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <file leaf-file-name="LeftShiftArrayTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/arrays/LeftShiftArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="322" column="0" lean-forward="false" selection-start-line="322" selection-start-column="0" selection-end-line="322" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoveDupsFromUnsortedTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/linkedlists/RemoveDupsFromUnsortedTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            <state relative-caret-position="450">
+              <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IsARotationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/strings/IsARotationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RotateMatrixTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/arrays/RotateMatrixTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="36" column="5" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,7 +64,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>static</find>
+      <find>a</find>
     </findStrings>
+    <replaceStrings>
+      <replace>len</replace>
+      <replace>arr</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -197,6 +117,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/strings/CountingPerfectSubsequences.java" />
         <option value="$PROJECT_DIR$/src/test/strings/CountingPerfectSubsequencesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/arrays/LeftShiftArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/arrays/LeftShiftArray.java" />
       </list>
     </option>
   </component>
@@ -298,11 +220,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="strings" />
+              <option name="myItemId" value="arrays" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,6 +243,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ADSPractice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ADSPractice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arrays" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,7 +304,7 @@
       <recent name="C:\Users\user\IdeaProjects\ADS_Practice\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CountingPerfectSubsequencesTest.testMiniSubsequences">
+  <component name="RunManager" selected="JUnit.LeftShiftArrayTest.test1">
     <configuration default="false" name="CountingPerfectSubsequencesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -387,84 +331,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CountingPerfectSubsequencesTest.testEqualNumSeq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ADS_Practice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.strings" />
-      <option name="MAIN_CLASS_NAME" value="test.strings.CountingPerfectSubsequencesTest" />
-      <option name="METHOD_NAME" value="testEqualNumSeq" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CountingPerfectSubsequencesTest.testNotEqualSeqValidation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ADS_Practice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.strings" />
-      <option name="MAIN_CLASS_NAME" value="test.strings.CountingPerfectSubsequencesTest" />
-      <option name="METHOD_NAME" value="testNotEqualSeqValidation" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CountingPerfectSubsequencesTest.testNotEqualSeq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ADS_Practice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.strings" />
-      <option name="MAIN_CLASS_NAME" value="test.strings.CountingPerfectSubsequencesTest" />
-      <option name="METHOD_NAME" value="testNotEqualSeq" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="CountingPerfectSubsequencesTest.testMiniSubsequences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -478,6 +344,84 @@
       <option name="PACKAGE_NAME" value="test.strings" />
       <option name="MAIN_CLASS_NAME" value="test.strings.CountingPerfectSubsequencesTest" />
       <option name="METHOD_NAME" value="testMiniSubsequences" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LeftShiftArrayTest.testSingleArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ADS_Practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.arrays" />
+      <option name="MAIN_CLASS_NAME" value="test.arrays.LeftShiftArrayTest" />
+      <option name="METHOD_NAME" value="testSingleArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LeftShiftArrayTest.testGetIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ADS_Practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.arrays" />
+      <option name="MAIN_CLASS_NAME" value="test.arrays.LeftShiftArrayTest" />
+      <option name="METHOD_NAME" value="testGetIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LeftShiftArrayTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ADS_Practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.arrays" />
+      <option name="MAIN_CLASS_NAME" value="test.arrays.LeftShiftArrayTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -674,18 +618,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.CountingPerfectSubsequencesTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CountingPerfectSubsequencesTest.testEqualNumSeq" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CountingPerfectSubsequencesTest.testNotEqualSeqValidation" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CountingPerfectSubsequencesTest.testNotEqualSeq" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CountingPerfectSubsequencesTest.testMiniSubsequences" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CountingPerfectSubsequencesTest.testMiniSubsequences" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LeftShiftArrayTest.testSingleArray" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LeftShiftArrayTest.testGetIndex" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LeftShiftArrayTest.test1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CountingPerfectSubsequencesTest.testMiniSubsequences" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CountingPerfectSubsequencesTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CountingPerfectSubsequencesTest.testNotEqualSeq" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CountingPerfectSubsequencesTest.testNotEqualSeqValidation" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CountingPerfectSubsequencesTest.testEqualNumSeq" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LeftShiftArrayTest.test1" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LeftShiftArrayTest.testGetIndex" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LeftShiftArrayTest.testSingleArray" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CountingPerfectSubsequencesTest.testMiniSubsequences" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CountingPerfectSubsequencesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -810,35 +754,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountingPerfectSubsequencesTest - 2017.05.02 at 16h 07m 15s.xml">
-      <configuration name="CountingPerfectSubsequencesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountingPerfectSubsequencesTest - 2017.05.02 at 16h 25m 46s.xml">
-      <configuration name="CountingPerfectSubsequencesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountingPerfectSubsequencesTest - 2017.05.02 at 16h 26m 25s.xml">
-      <configuration name="CountingPerfectSubsequencesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountingPerfectSubsequencesTest - 2017.05.02 at 16h 28m 50s.xml">
-      <configuration name="CountingPerfectSubsequencesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountingPerfectSubsequencesTest - 2017.05.02 at 16h 30m 42s.xml">
-      <configuration name="CountingPerfectSubsequencesTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CountingPerfectSubsequencesTest_testMiniSubsequences - 2017.05.02 at 16h 43m 14s.xml">
       <configuration name="CountingPerfectSubsequencesTest.testMiniSubsequences" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountingPerfectSubsequencesTest_testNotEqualSeq - 2017.05.02 at 14h 31m 20s.xml">
-      <configuration name="CountingPerfectSubsequencesTest.testNotEqualSeq" configurationId="JUnit" />
+    <history-entry file="LeftShiftArrayTest_test1 - 2017.05.02 at 17h 51m 28s.xml">
+      <configuration name="LeftShiftArrayTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountingPerfectSubsequencesTest_testNotEqualSeq - 2017.05.02 at 14h 31m 36s.xml">
-      <configuration name="CountingPerfectSubsequencesTest.testNotEqualSeq" configurationId="JUnit" />
+    <history-entry file="LeftShiftArrayTest_test1 - 2017.05.02 at 17h 52m 52s.xml">
+      <configuration name="LeftShiftArrayTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountingPerfectSubsequencesTest_testNotEqualSeq - 2017.05.02 at 14h 32m 23s.xml">
-      <configuration name="CountingPerfectSubsequencesTest.testNotEqualSeq" configurationId="JUnit" />
+    <history-entry file="LeftShiftArrayTest_test1 - 2017.05.02 at 17h 54m 01s.xml">
+      <configuration name="LeftShiftArrayTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountingPerfectSubsequencesTest_testNotEqualSeq - 2017.05.02 at 14h 33m 46s.xml">
-      <configuration name="CountingPerfectSubsequencesTest.testNotEqualSeq" configurationId="JUnit" />
+    <history-entry file="LeftShiftArrayTest_test1 - 2017.05.02 at 17h 54m 32s.xml">
+      <configuration name="LeftShiftArrayTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeftShiftArrayTest_testGetIndex - 2017.05.02 at 17h 47m 57s.xml">
+      <configuration name="LeftShiftArrayTest.testGetIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeftShiftArrayTest_testGetIndex - 2017.05.02 at 17h 48m 07s.xml">
+      <configuration name="LeftShiftArrayTest.testGetIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeftShiftArrayTest_testGetIndex - 2017.05.02 at 17h 48m 51s.xml">
+      <configuration name="LeftShiftArrayTest.testGetIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeftShiftArrayTest_testGetIndex - 2017.05.02 at 17h 49m 18s.xml">
+      <configuration name="LeftShiftArrayTest.testGetIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeftShiftArrayTest_testSingleArray - 2017.05.02 at 17h 46m 09s.xml">
+      <configuration name="LeftShiftArrayTest.testSingleArray" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -855,6 +799,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37325907" sideWeight="0.49113083" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37604457" sideWeight="0.49113083" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287234" sideWeight="0.49113083" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22492836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -916,11 +861,21 @@
     <MESSAGE value="Remove dups from unsorted ll&#10;" />
     <MESSAGE value="Merge branch 'master' of https://github.com/Kgresmer/ADSPractice&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
     <MESSAGE value="remove .idea&#10;finished mergesort&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove .idea&#10;finished mergesort&#10;" />
+    <MESSAGE value="mostly failed attempt at the solution to a really hard problem.  None of it is correct." />
+    <MESSAGE value="s'more things." />
+    <option name="LAST_COMMIT_MESSAGE" value="s'more things." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="30" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/arrays/LeftShiftArray.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -929,20 +884,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/strings/FindAllUniqueCharsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/arrays/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/arrays/FindMinInRotatedSortedArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1225,24 +1166,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/linkedlists/RemoveDupsFromUnsortedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/linkedlists/RemoveDupsFromUnsorted.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/algorithms/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
@@ -1257,6 +1180,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1284,9 +1208,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/linkedlists/RemoveDupsFromUnsortedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/linkedlists/RemoveDupsFromUnsorted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/strings/CountingPerfectSubsequences.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
+        <state relative-caret-position="108">
           <caret line="66" column="21" lean-forward="false" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
           <folding />
         </state>
@@ -1302,6 +1244,28 @@
             <element signature="e#1295#1296#0" expanded="true" />
             <element signature="e#2016#2017#0" expanded="true" />
             <element signature="e#2047#2048#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/arrays/LeftShiftArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/arrays/LeftShiftArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
           </folding>
         </state>
       </provider>
